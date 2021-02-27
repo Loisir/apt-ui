@@ -1,3 +1,3 @@
 # AptUI
 
-React UI component library
+Lightweight React UI component library
