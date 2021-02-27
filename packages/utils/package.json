@@ -1,0 +1,19 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Utility functions for apt-ui",
+  "main": "index.js",
+  "author": "Loisir",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loisir/apt-ui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.2",
+    "react": "^17.0.1"
+  }
+}

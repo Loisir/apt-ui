@@ -1,0 +1,20 @@
+{
+  "name": "apt-ui",
+  "version": "1.0.0",
+  "description": "Lightweight React UI component library",
+  "main": "index.js",
+  "author": "Loisir",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loisir/apt-ui.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/Loisir/apt-ui/issues"
+  },
+  "homepage": "https://github.com/Loisir/apt-ui#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
