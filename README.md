@@ -1,6 +1,4 @@
-<h1 align="center">Apt UI</h1>
-
-<div align="center">
+# Apt UI
 
 [![GitHub issues](https://img.shields.io/github/issues/Loisir/apt-ui?style=flat-square)](https://github.com/loisir/apt-ui/issues)
 [![GitHub license](https://img.shields.io/github/license/Loisir/apt-ui?style=flat-square)](https://github.com/Loisir/apt-ui)
@@ -9,4 +7,3 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/Loisir/apt-ui?style=flat-square)
   
 Lightweight React UI component library
-</div>
