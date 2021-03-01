@@ -1,8 +1,8 @@
 {
-  "name": "@apt-ui/utils",
+  "name": "@apt-ui/hooks",
   "version": "1.0.0",
   "private": true,
-  "description": "Utility functions for apt-ui",
+  "description": "React hooks for Apt UI",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
@@ -10,14 +10,15 @@
   },
   "author": "Loisir",
   "license": "BSD-3-Clause",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "bugs": {
     "url": "https://github.com/Loisir/apt-ui/issues"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@apt-ui/utils": "^1.0.0"
   },
   "peerDependencies": {
     "@types/react": "^17.0.2",

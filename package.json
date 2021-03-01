@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Loisir",
   "license": "BSD-3-Clause",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git"
@@ -16,5 +17,8 @@
   "homepage": "https://github.com/Loisir/apt-ui#readme",
   "devDependencies": {
     "lerna": "^3.22.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
