@@ -17,6 +17,8 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
   "exclude": [

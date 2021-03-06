@@ -5,9 +5,3 @@ export function canUseDOM(): boolean {
     && window.document.createElement
   );
 };
-
-type Falsy = boolean | undefined | null | 0;
-
-export function clsx(...classes: (string | Falsy)[]): string {
-  return classes.filter(Boolean).join(' ');
-};

@@ -16,8 +16,11 @@
     "sourceMap": true,
     "noImplicitAny": false,
     "moduleResolution": "node",
-    "jsx": "react",
-    "typeRoots": ["../../node_modules/@types"],
+    "jsx": "react-jsx",
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

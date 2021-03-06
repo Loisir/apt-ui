@@ -4,13 +4,21 @@
   "private": true,
   "description": "React hooks for Apt UI",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git"
   },
   "author": "Loisir",
   "license": "BSD-3-Clause",
-  "scripts": {},
+  "scripts": {
+    "prepack": "yarn build",
+    "build": "yarn clean && yarn compile",
+    "compile": "tsc -b"
+  },
   "bugs": {
     "url": "https://github.com/Loisir/apt-ui/issues"
   },
