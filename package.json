@@ -10,6 +10,11 @@
   },
   "author": "Loisir",
   "license": "BSD-3-Clause",
+  "keywords": [
+    "styled-components",
+    "reactjs",
+    "ui-components"
+  ],
   "scripts": {},
   "bugs": {
     "url": "https://github.com/Loisir/apt-ui/issues"

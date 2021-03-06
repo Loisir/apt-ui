@@ -15,8 +15,8 @@
   "author": "Loisir",
   "license": "BSD-3-Clause",
   "scripts": {
-    "prepack": "yarn build",
-    "compile": "npx tsc -b"
+    "build": "tsc -b",
+    "clean": "lerna run clean --parallel"
   },
   "bugs": {
     "url": "https://github.com/Loisir/apt-ui/issues"

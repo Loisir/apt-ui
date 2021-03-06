@@ -6,7 +6,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/Loisir/apt-ui?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Loisir/apt-ui?style=flat-square)
 
-Welcome to the official repository of __Loisir__.
+Welcome to the official repository of __Apt UI__.
 
 #### What is it?
 
