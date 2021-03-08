@@ -1,7 +1,12 @@
 import React from 'react';
-import { IButtonIconProps, IButtonProps } from './Button.types';
+import { IButtonProps } from './Button.types';
+import styled from 'styled-components';
 
-export const Button = React.forwardRef<React.HTMLElement, IButtonProps>((props, ref) => {
+export const StyledButton = styled.div`
+
+`;
+
+export const Button = React.forwardRef<HTMLDivElement, IButtonProps>((props, ref) => {
   const {
     leftIcon,
     children,
@@ -9,7 +14,9 @@ export const Button = React.forwardRef<React.HTMLElement, IButtonProps>((props, 
   } = props;
 
   return (
-    <div>
+    <div
+    ref={ref}
+    >
       {leftIcon}
       {children}
       {rightIcon}
