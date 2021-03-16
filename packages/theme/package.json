@@ -8,8 +8,8 @@
   ],
   "repository": {
     "type": "git",
-    "directory": "packages/button",
-    "url": "git+https://github.com/Loisir/apt-ui.git"
+    "url": "git+https://github.com/Loisir/apt-ui.git",
+    "directory": "packages/theme"
   },
   "author": "Loisir",
   "license": "BSD-3-Clause",
@@ -23,5 +23,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "react": "^17.0.1"
   }
 }

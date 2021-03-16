@@ -1,8 +1,6 @@
 {
-  "name": "@apt-ui/utils",
+  "name": "@apt-ui/breadcrumb",
   "version": "1.0.0",
-  "private": true,
-  "description": "Utility functions for apt-ui",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -11,25 +9,19 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git",
-    "directory": "packages/utils"
+    "directory": "packages/breadcrumb"
   },
   "author": "Loisir",
   "license": "BSD-3-Clause",
   "scripts": {
-    "build": "tsc -b",
-    "clean": "lerna run clean --parallel"
+    "prepack": "yarn build",
+    "build": "yarn clean && yarn compile",
+    "compile": "tsc -b"
   },
   "bugs": {
     "url": "https://github.com/Loisir/apt-ui/issues"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "@types/react": "^17.0.3",
-    "react": "^17.0.1"
-  },
-  "dependencies": {
-    "react-dom": "^17.0.1"
   }
 }

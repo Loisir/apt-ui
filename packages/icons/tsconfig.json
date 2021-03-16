@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "target": "es5",
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "allowJs": true,
+    "removeComments": true,
+    "declaration": true,
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

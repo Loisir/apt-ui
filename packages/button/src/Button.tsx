@@ -1,22 +1,17 @@
 import React from 'react';
-import { IButtonProps } from './Button.types';
-import styled from 'styled-components';
+import { ButtonProps } from './Button.types';
 
-export const StyledButton = styled.div`
 
-`;
-
-export const Button = React.forwardRef<HTMLDivElement, IButtonProps>((props, ref) => {
+export const Button = React.forwardRef<HTMLDivElement, ButtonProps>((props, ref) => {
   const {
-    leftIcon,
     children,
+    leftIcon,
     rightIcon,
+    ...otherProps
   } = props;
 
   return (
-    <div
-    ref={ref}
-    >
+    <div ref={ref} {...otherProps}>
       {leftIcon}
       {children}
       {rightIcon}
