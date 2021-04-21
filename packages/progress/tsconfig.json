@@ -4,7 +4,7 @@
     "outDir": "dist",
     "target": "es5",
     "lib": [
-      "es5",
+      "es2020",
       "dom"
     ],
     "allowJs": true,
@@ -14,11 +14,9 @@
     "strict": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "moduleResolution": "node",
     "jsx": "react-jsx",
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
   "exclude": [

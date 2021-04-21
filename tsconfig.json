@@ -3,8 +3,8 @@
     "baseUrl": ".",
     "target": "esnext",
     "lib": [
-      "dom",
-      "esnext"
+      "es2020",
+      "dom"
     ],
     "allowJs": true,
     "esModuleInterop": true,

@@ -1,20 +1,31 @@
 import React from 'react';
 import { ButtonProps } from './Button.types';
 
-
-export const Button = React.forwardRef<HTMLDivElement, ButtonProps>((props, ref) => {
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
   const {
+    isDisabled = false,
+    isLoading = false,
     children,
     leftIcon,
     rightIcon,
+    type = 'button',
     ...otherProps
   } = props;
 
   return (
-    <div ref={ref} {...otherProps}>
+    <button
+      ref={ref}
+      disabled={isDisabled}
+      type={type}
+      {...otherProps}
+    >
       {leftIcon}
       {children}
       {rightIcon}
-    </div>
+    </button>
   );
 });
+
+Button.displayName = 'Button';
+
+export default Button;

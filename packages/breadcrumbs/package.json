@@ -1,5 +1,5 @@
 {
-  "name": "@apt-ui/breadcrumb",
+  "name": "@apt-ui/breadcrumbs",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git",
-    "directory": "packages/breadcrumb"
+    "directory": "packages/breadcrumbs"
   },
   "author": "Loisir",
   "license": "BSD-3-Clause",

@@ -2,10 +2,19 @@ import React from "react";
 import { CardProps } from "./Card.types";
 
 const Card = React.forwardRef<HTMLDivElement, CardProps>((props, ref) => {
-  const { children, ...otherProps } = props;
+  const {
+    children,
+    rounded = true,
+    ...otherProps
+  } = props;
 
   return (
-    <div></div>
+    <div
+      ref={ref}
+      {...otherProps}
+    >
+      {children}
+    </div>
   );
 });
 

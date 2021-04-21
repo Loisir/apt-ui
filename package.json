@@ -11,9 +11,9 @@
   "author": "Loisir",
   "license": "BSD-3-Clause",
   "keywords": [
-    "styled-components",
     "reactjs",
-    "ui-components"
+    "ui-components",
+    "emotionjs"
   ],
   "scripts": {},
   "bugs": {

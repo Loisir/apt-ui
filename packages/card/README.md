@@ -1,4 +1,4 @@
-# @apt-ui/button
+# @apt-ui/card
 
 This package contains Card component of ```@apt-ui```
 
