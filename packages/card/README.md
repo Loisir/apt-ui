@@ -1,6 +1,6 @@
 # @apt-ui/card
 
-This package contains Card component of ```@apt-ui```
+This package contains Card component
 
 ### Import component
 ```js

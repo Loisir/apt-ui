@@ -1,6 +1,6 @@
 import React from 'react';
 
-export interface CardProps
+export default interface CardProps
   extends React.HTMLAttributes<HTMLElement> {
   /**
    * The content of the component.

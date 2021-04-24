@@ -1,3 +1,3 @@
-# @apt-ui/icons
+# @apt-ui/svg-icon
 
-This package contains icons for ```@apt-ui``` 
+This package contains Svg Icon component

@@ -16,7 +16,7 @@
   "license": "BSD-3-Clause",
   "scripts": {
     "prepack": "yarn build",
-    "build": "yarn clean && yarn compile",
+    "build": "yarn compile",
     "compile": "tsc -b"
   },
   "bugs": {

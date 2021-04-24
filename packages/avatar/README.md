@@ -1,6 +1,6 @@
 # @apt-ui/avatar
 
-This package contains Avatar component of ```@apt-ui```
+This package contains Avatar component
 
 ### Import component
 ```js

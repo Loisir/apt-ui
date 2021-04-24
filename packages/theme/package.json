@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git",
@@ -15,7 +13,7 @@
   "license": "BSD-3-Clause",
   "scripts": {
     "prepack": "yarn build",
-    "build": "yarn clean && yarn compile",
+    "build": "yarn compile",
     "compile": "tsc -b"
   },
   "bugs": {

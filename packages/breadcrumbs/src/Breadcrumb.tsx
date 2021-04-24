@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  BreadcrumbProps,
-  BreadcrumbSeparatorProps
-} from './Breadcrumb.types';
+import BreadcrumbProps, { BreadcrumbSeparatorProps } from './Breadcrumb.types';
 
 const BreadcrumbSeparator = React.forwardRef<HTMLLIElement, BreadcrumbSeparatorProps>(
   (props, ref) => {
@@ -20,17 +17,17 @@ BreadcrumbSeparator.displayName = 'BreadcrumbSeparator';
 function insertSeparators(
   items: React.ReactNode[], separator: React.ReactNode) {
   return items.reduce((acc, item, idx) => {
-    if (idx < items.length - 1) {
-      acc = acc.concat(
-        item,
-        <BreadcrumbSeparator
-          key={`separator-$index`}>
-          {separator}
-        </BreadcrumbSeparator>,
-      );
-    } else {
-      acc.push(item);
-    }
+    // if (idx < items.length - 1) {
+    //   acc = acc.concat(
+    //     item,
+    //     <BreadcrumbSeparator
+    //       key={`separator-$index`}>
+    //       {separator}
+    //     </BreadcrumbSeparator>,
+    //   );
+    // } else {
+    //   acc.push(item);
+    // }
 
     return acc;
   }, []);

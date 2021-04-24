@@ -1,19 +1,16 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "module": "CommonJS",
     "target": "esnext",
     "lib": [
-      "es2020",
+      "esnext",
       "dom"
     ],
-    "allowJs": true,
     "esModuleInterop": true,
-    "declarationMap": true,
+    "allowJs": true,
     "sourceMap": true,
-    "module": "commonjs",
     "strict": true,
     "skipLibCheck": true,
-    "moduleResolution": "node",
-    "composite": true
+    "listFiles": true
   }
 }

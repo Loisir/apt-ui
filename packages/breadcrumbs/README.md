@@ -1,6 +1,6 @@
 # @apt-ui/breadcrumbs
 
-This package contains Breadcrumbs component of ```@apt-ui```
+This package contains Breadcrumbs component
 
 ### Import component
 ```js
