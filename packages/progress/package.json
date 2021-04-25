@@ -1,6 +1,6 @@
 {
   "name": "@apt-ui/progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React progress indicators for Apt UI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,7 +26,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@apt-ui/utils": "^1.0.0",
+    "@apt-ui/utils": "^1.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
