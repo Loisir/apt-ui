@@ -21,4 +21,4 @@ A [React](https://reactjs.org/) UI component library that enables fast and profe
 
 ## License
 
-• Licensed under the BSD 3-Clause license, see [LICENSE](https://github.com/facebook/react-native/blob/master/LICENSE) file for details.
+• Licensed under the BSD 3-Clause license, see [LICENSE](https://github.com/Loisir/apt-ui/blob/master/LICENSE) file for details.
