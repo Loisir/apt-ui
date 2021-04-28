@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default interface SvgIconProps extends React.HTMLAttributes<SVGSVGElement> {
+export interface SvgIconProps extends React.HTMLAttributes<SVGSVGElement> {
   /**
    * Node passed into the SVG element.
    */

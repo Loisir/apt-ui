@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default interface AvatarProps {
+export interface AvatarProps {
   /**
    * Contents of the avatar.
    * Can be an element or a string.

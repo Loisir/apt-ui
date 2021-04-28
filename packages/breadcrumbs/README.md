@@ -1,6 +1,10 @@
 # @apt-ui/breadcrumbs
 
-This package contains Breadcrumbs component
+This package contains Breadcrumbs component.
+
+### Warning
+
+This package is still a work in progress and is not ready for production. Use it at your own risk.
 
 ### Import component
 ```js

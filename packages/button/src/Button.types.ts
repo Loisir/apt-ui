@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default interface ButtonProps
+export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLElement> {
   /**
    * Whether or not the button in loading state.

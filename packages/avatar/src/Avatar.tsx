@@ -1,5 +1,5 @@
 import React from 'react';
-import AvatarProps from './Avatar.types';
+import { AvatarProps } from './Avatar.types';
 import useImage from './useImage';
 
 const AvatarImg = (props: AvatarProps) => {
@@ -20,7 +20,7 @@ const AvatarImg = (props: AvatarProps) => {
 
 AvatarImg.displayName = 'AvatarImg';
 
-const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
+export const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
   const {
     alt,
     square = false,
@@ -59,5 +59,3 @@ const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
 });
 
 Avatar.displayName = 'Avatar';
-
-export default Avatar;

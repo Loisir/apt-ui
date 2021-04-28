@@ -2,7 +2,7 @@ import React from 'react';
 
 type Status = 'loading' | 'pending' | 'failed' | 'loaded';
 
-const useImage = (src: string, srcSet: string) => {
+export const useImage = (src: string, srcSet: string) => {
   const [loaded, setLoaded] = React.useState<Status>('pending');
 
   React.useEffect(() => {

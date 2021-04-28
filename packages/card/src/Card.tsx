@@ -1,7 +1,7 @@
 import React from "react";
-import CardProps from "./Card.types";
+import { CardProps } from "./Card.types";
 
-const Card = React.forwardRef<HTMLDivElement, CardProps>((props, ref) => {
+export const Card = React.forwardRef<HTMLDivElement, CardProps>((props, ref) => {
   const {
     children,
     rounded = true,
@@ -19,5 +19,3 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>((props, ref) => {
 });
 
 Card.displayName = 'Card';
-
-export default Card;

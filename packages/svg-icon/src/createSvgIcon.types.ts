@@ -1,12 +1,6 @@
 import React from 'react';
 
-export default interface CreateSvgIconOptions {
-  /**
-   * The `svg` viewBox prop
-   * @default '0 0 24 24'
-   */
-  viewBox?: string;
-  
+export interface CreateSvgIconOptions {
   /**
    * The `svg` path or group element
    */
@@ -16,4 +10,4 @@ export default interface CreateSvgIconOptions {
    * The display name useful in the dev tools
    */
   displayName?: string;
-}
+};

@@ -1,7 +1,7 @@
 import React from 'react';
-import ButtonProps from './Button.types';
+import { ButtonProps } from './Button.types';
 
-const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
   const {
     isDisabled = false,
     isLoading = false,
@@ -27,5 +27,3 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => 
 });
 
 Button.displayName = 'Button';
-
-export default Button;

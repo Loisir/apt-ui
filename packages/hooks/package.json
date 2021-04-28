@@ -4,9 +4,8 @@
   "description": "React hooks for Apt UI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
+  "keywords": ["hooks", "react-hooks", "react", "apt-ui", "apt ui"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git",
@@ -26,8 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@apt-ui/utils": "^1.0.1",
-    "react-dom": "^17.0.1"
+    "@apt-ui/utils": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.3",

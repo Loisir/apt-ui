@@ -33,7 +33,7 @@ function insertSeparators(
   }, []);
 }
 
-const Breadcrumbs = React.forwardRef<HTMLElement, BreadcrumbProps>((props, ref) => {
+export const Breadcrumbs = React.forwardRef<HTMLElement, BreadcrumbProps>((props, ref) => {
   const {
     children,
     separator = "/",
@@ -64,5 +64,3 @@ const Breadcrumbs = React.forwardRef<HTMLElement, BreadcrumbProps>((props, ref) 
 });
 
 Breadcrumbs.displayName = 'Breadcrumbs';
-
-export default Breadcrumbs;

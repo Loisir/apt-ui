@@ -4,9 +4,8 @@
   "description": "Utility functions for apt-ui",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
+  "keywords": ["utilities", "apt-ui", "apt ui"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git",
@@ -29,6 +28,5 @@
     "react": "^17.0.1"
   },
   "dependencies": {
-    "react-dom": "^17.0.1"
   }
 }

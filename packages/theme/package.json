@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
+  "keywords": ["themes", "theming", "apt-ui", "apt ui"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git",
