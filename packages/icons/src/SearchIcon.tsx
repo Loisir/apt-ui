@@ -8,4 +8,4 @@ export const SearchIcon = createSvgIcon({
     </g>
   ),
   displayName: 'Search'
-})
+});
