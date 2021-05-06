@@ -12,7 +12,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Loisir/apt-ui?style=flat-square)](https://github.com/Loisir/apt-ui/network/members)
 ![GitHub watchers](https://img.shields.io/github/watchers/Loisir/apt-ui?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Loisir/apt-ui?style=flat-square)
-![David](https://img.shields.io/david/dev/loisir/apt-ui?style=for-the-badge)
+![David](https://img.shields.io/david/dev/loisir/apt-ui?style=flat-square)
 
 </div>
 
