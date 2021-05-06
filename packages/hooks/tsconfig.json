@@ -4,7 +4,10 @@
     "outDir": "dist",
     "module": "CommonJS",
     "target": "es5",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "allowJs": true,
     "removeComments": true,
     "declaration": true,
@@ -18,6 +21,11 @@
     "forceConsistentCasingInFileNames": true,
     "allowUnreachableCode": false,
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

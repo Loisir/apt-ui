@@ -1,6 +1,6 @@
-# @apt-ui/utils
+# @apt-ui/switch-base
 
-This package contains utility functions
+This package contains Switch component interface.
 
 **Note** ``` This package is for internal use only. ```
 

@@ -1,27 +1,30 @@
 {
-  "name": "@apt-ui/utils",
+  "name": "@apt-ui/radio",
   "version": "1.0.0",
-  "description": "Utility functions for apt-ui",
+  "description": "React Radio component for Apt UI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "keywords": [
-    "utilities",
+    "radio",
+    "radio-button",
+    "react-component",
     "apt-ui",
     "apt ui"
+  ],
+  "files": [
+    "dist"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git",
-    "directory": "packages/utils"
+    "directory": "packages/radio"
   },
   "author": "Loisir",
   "license": "BSD-3-Clause",
   "scripts": {
-    "build": "tsc -b",
-    "clean": "lerna run clean --parallel"
+    "prepack": "yarn build",
+    "build": "yarn compile",
+    "compile": "tsc -b"
   },
   "bugs": {
     "url": "https://github.com/Loisir/apt-ui/issues"
@@ -32,5 +35,8 @@
   "devDependencies": {
     "@types/react": "^17.0.3",
     "react": "^17.0.1"
+  },
+  "dependencies": {
+    "@apt-ui/switch-base": "^1.0.0"
   }
 }

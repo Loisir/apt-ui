@@ -14,10 +14,10 @@ export interface SvgIconProps extends React.HTMLAttributes<SVGSVGElement> {
    * to bottom right (50,20) and each unit will be worth 10px.
    * @default '0 0 24 24'
    */
-  viewBox: string;
+  viewBox?: string;
 
   /**
    * Applies a color attribute to the SVG element.
    */
-  htmlColor: string;
+  htmlColor?: string;
 };

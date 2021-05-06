@@ -20,3 +20,5 @@ export const SvgIcon = React.forwardRef<SVGSVGElement, SvgIconProps>((props, ref
     </svg>
   );
 });
+
+SvgIcon.displayName = 'SvgIcon';

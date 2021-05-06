@@ -3,7 +3,10 @@ import BreadcrumbProps, { BreadcrumbSeparatorProps } from './Breadcrumb.types';
 
 const BreadcrumbSeparator = React.forwardRef<HTMLLIElement, BreadcrumbSeparatorProps>(
   (props, ref) => {
-  const { children, ...otherProps } = props;
+  const {
+    children,
+    ...otherProps
+  } = props;
 
   return (
     <li ref={ref} {...otherProps}>

@@ -9,10 +9,14 @@
   },
   "author": "Loisir",
   "license": "BSD-3-Clause",
-  "keywords": ["reactjs", "ui-components", "emotionjs"],
+  "keywords": [
+    "reactjs",
+    "ui-components"
+  ],
   "homepage": "https://github.com/Loisir/apt-ui#readme",
   "scripts": {
-    "create-package": "plop --plopfile ./scripts/create-package/plopfile.ts"
+    "create-package": "plop --plopfile ./scripts/create-package/plopfile.ts",
+    "storybook": "start-storybook -p 6006"
   },
   "bugs": {
     "url": "https://github.com/Loisir/apt-ui/issues"

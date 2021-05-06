@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
-  "keywords": ["breadcrumbs", "react-component", "apt-ui", "apt ui"],
+  "keywords": [
+    "breadcrumbs",
+    "react-component",
+    "apt-ui",
+    "apt ui"
+  ],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git",

@@ -4,8 +4,16 @@
   "description": "React Svg Icon component for Apt UI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "keywords": ["svg-icon", "svg", "react-component", "apt-ui", "apt ui"],
-  "files": ["dist"],
+  "keywords": [
+    "svg-icon",
+    "svg",
+    "react-component",
+    "apt-ui",
+    "apt ui"
+  ],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Loisir/apt-ui.git",
@@ -23,8 +31,6 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
   },
   "devDependencies": {
     "@types/react": "^17.0.3",

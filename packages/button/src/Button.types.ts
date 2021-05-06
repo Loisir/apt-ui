@@ -7,13 +7,13 @@ export interface ButtonProps
    * If `true` will show a spinner.
    * @default false
    */
-  isLoading: boolean;
+  isLoading?: boolean;
 
   /**
    * If `true`, the button will be disabled.
    * @default false
    */
-   isDisabled?: boolean;
+  isDisabled?: boolean;
   
   /**
    * Icon before the button's label.

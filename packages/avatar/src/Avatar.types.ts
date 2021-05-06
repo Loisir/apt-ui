@@ -33,4 +33,4 @@ export interface AvatarProps {
    * @default false
    */
   square?: boolean;
-}
+};

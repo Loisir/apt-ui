@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
-  "keywords": ["button", "react-component", "apt-ui", "apt ui"],
+  "keywords": [
+    "button",
+    "react-component",
+    "apt-ui",
+    "apt ui"
+  ],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "directory": "packages/button",
@@ -22,8 +29,6 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
   },
   "devDependencies": {
     "@types/react": "^17.0.3",

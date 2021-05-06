@@ -1,6 +1,6 @@
 import React from 'react';
 import { AvatarProps } from './Avatar.types';
-import useImage from './useImage';
+import { useAvatarImage } from './useAvatarImage';
 
 const AvatarImg = (props: AvatarProps) => {
   const {
@@ -31,7 +31,7 @@ export const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>((props, ref)
 
   let children = null;
 
-  const loaded = useImage(src || '', srcSet || '');
+  const loaded = useAvatarImage(src || '', srcSet || '');
   const hasSrc = src || srcSet;
 
   if (hasSrc && loaded !== 'failed') {

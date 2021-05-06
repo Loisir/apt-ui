@@ -1,6 +1,6 @@
-# @apt-ui/breadcrumbs
+# @apt-ui/radio
 
-This package contains Breadcrumbs component.
+This package contains radio button component.
 
 ## Warning
 
@@ -9,5 +9,5 @@ This package is still a work in progress and is not ready for production. Use it
 ## Import component
 
 ```js
-import { Breadcrumbs } from '@apt-ui/breadcrumbs';
+import { Radio } from '@apt-ui/radio';
 ```

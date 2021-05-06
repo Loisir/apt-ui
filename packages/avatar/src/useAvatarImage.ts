@@ -2,7 +2,7 @@ import React from 'react';
 
 type Status = 'loading' | 'pending' | 'failed' | 'loaded';
 
-export const useImage = (src: string, srcSet: string) => {
+export const useAvatarImage = (src: string, srcSet: string) => {
   const [loaded, setLoaded] = React.useState<Status>('pending');
 
   React.useEffect(() => {
@@ -39,5 +39,3 @@ export const useImage = (src: string, srcSet: string) => {
 
   return loaded;
 };
-
-export default useImage;

@@ -2,11 +2,12 @@
 
 This package contains Card component.
 
-### Warning
+## Warning
 
 This package is still a work in progress and is not ready for production. Use it at your own risk.
 
-### Import component
+## Import component
+
 ```js
 import { Card } from '@apt-ui/card';
 ```
